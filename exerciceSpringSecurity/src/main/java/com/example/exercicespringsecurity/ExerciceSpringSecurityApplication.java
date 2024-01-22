@@ -11,7 +11,7 @@ public class ExerciceSpringSecurityApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ExerciceSpringSecurityApplication.class, args);
-        UserService.createAdminUser("filsDuBoss","weshDu91");
+        UserService.createAdminUser("newAdmin","newAdminPass");
     }
 
 }
